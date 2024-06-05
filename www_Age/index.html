@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculateur d'Âge</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Découvrez votre âge</h1>
+        <form class="age-form">
+            <fieldset>
+                <legend>Calculateur d'Âge</legend>
+                <div class="form-group">
+                    <label for="birthYear">Année de naissance</label>
+                    <input type="number" id="birthYear" min="1900" max="2024" class="form-control">
+                </div>
+                <div class="form-group">
+                    <input type="button" value="Calculer" class="btn" onclick="calculAge()">
+                </div>
+            </fieldset>
+            <fieldset id="resultat" hidden>
+                <legend>Résultat</legend>
+                <div class="form-group">
+                    <label id="result"></label>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>

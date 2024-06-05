@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact'Tel</title>
+    <link rel="stylesheet" href="lib/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="lib/jquery.min.js"></script>
+    <script src="lib/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="cordova.js"></script>
+</head>
+
+<body>
+    <div data-role="page">
+        <div data-role="header">
+            <h1>Contact Tel</h1>
+        </div>
+        <div role="main" class="ui-content">
+            <a href="#" data-role="button" data-icon="arrow-r" data-iconpos="right">Ajouter</a>
+            <ul id="contactList" data-role="listview" data-inset="true" data-filter="true" data-filter-placeholder="Rechercher contact...">
+                <li>
+                    <a href="#">
+                        <img src="images/avatar.jpg" alt="photo de profil du contact">
+                        <h1>Khadim Fall</h1>
+                        <p>70 123 45 67</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/black-woman-face.webp" alt="photo de profil du contact">
+                        <h1>Khady Ndiaye</h1>
+                        <p>75 123 45 67</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/avatar-black-woman.jpg" alt="photo de profil du contact">
+                        <h1>Anta Diatta</h1>
+                        <p>76 123 45 67</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <h1>DIC3 ESP 2023/2024</h1>
+        </div>
+    </div>
+</body>
+
+</html>
